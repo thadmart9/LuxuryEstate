@@ -1,0 +1,956 @@
+:root {
+    --primary-color: #02254F;
+}
+
+
+
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 3.6rem;
+    font-weight: 400;
+    font-family: 'Playfair Display';
+    color: var(--primary-color);
+}
+
+h2 {
+    font-size: 3.4rem;
+    font-weight: 400;
+    font-family: 'Playfair Display';
+    color: var(--primary-color);
+}
+
+p {
+    font-size: 1.6rem;
+    font-family: 'Source Sans Pro';
+}
+
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+   
+  
+}
+
+.wrapper {
+    height: 10em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3.6em;
+    margin-right: 3.6em;
+}
+
+
+
+
+.logo {
+    color: white;
+    font-size: 2.4rem;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.logo span {
+    color: #EFD296;
+}
+
+.menu-btn svg {
+    width: 4em;
+    cursor: pointer;
+    
+}
+
+#topnav {
+    position: fixed;
+    right: -77%;
+    top: 0;
+    width: 77%;
+    height: 100vh;
+    background: var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+#topnav.open {
+    right: 0%;
+}
+
+.close-btn {
+    cursor: pointer;
+    width: 5.5em;
+    display: block;
+    margin-left: auto;
+    padding: 3em;
+}
+
+#menu li {
+    color: white;
+    font-size: 3.6em;
+    margin-top: .6em;
+    padding-left: 1em;
+    font-family: 'Source Sans Pro';
+}
+
+
+
+
+
+.hide-mobile {
+    display: none;
+}
+
+.hero{
+    margin: 3.6em;
+}
+
+.img3 {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* HERO SECTION */
+
+h3 {
+    font-size: 1.8rem;
+    font-family: 'Source Sans Pro';
+}
+
+.caption h1 {
+    margin-bottom: 0;
+}
+
+.caption-text {
+    color: #777C81;
+}
+
+a {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.ctas {
+    margin-top: 4em;
+    margin-bottom: 4em;
+    display: flex;
+    justify-content: space-between;
+    gap: .8em;
+}
+
+.cta {
+    font-size: 2em;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    border: 2px solid #02254F;
+    padding: 10px;
+    width: 14em;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+
+/* OFERTAS Y CARDS */
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4em;
+}
+
+.ofertas {
+    margin: 3.5em;
+}
+
+.titleofertas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.card1, .card2, .card3 {
+    background-color: #F7FAFC;
+}
+
+
+
+.card1 .image {
+    height: 200px;
+    width: 100%;
+    background-image: url(propiedad1.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: end;
+}
+
+.price {
+    color: white;
+    font-size: 1.6rem;
+    padding: .5em;
+    padding-left: 1em;
+    background: rgba(51, 51, 51, 0.66);
+}
+
+.card2 .image {
+    height: 200px;
+    width: 100%;
+    background-image: url(propiedad2.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+.card3 .image {
+    height: 200px;
+    width: 100%;
+    background-image: url(Livingroom.avif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+}
+
+.features {
+    display: flex;
+    gap: 3.2em;
+    padding-left: 1.6em;
+}
+
+.feature1, .feature2, .feature3 {
+    gap: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.properytitle {
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: 'Source Sans Pro';
+    
+}
+
+.description {
+  font-size: 1.6rem;
+
+}
+.propertydescription {
+    padding: 1.6em;
+    padding-top: 0;
+}
+
+.secondary2 {
+    justify-self: center;
+    width: auto;
+    text-decoration: none;
+}
+
+.wrapperbtn {
+    padding: 1.6em;
+}
+
+#verpropiedades {
+    width: auto;
+    gap: .4em;
+    display: flex;
+    margin-top: 1.5em;
+}
+
+.arrow {
+    align-self: flex-end;
+}
+
+
+/* DATOS Y RESEÑAS */
+
+.datos {
+    background-color: #E1EEFE;
+    margin-top: 10em;
+}
+
+.wrapper3 {
+    padding: 3.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5em;
+}
+
+
+/* SERVICIOS */
+
+.servicios {
+    margin-top: 5em;
+    padding: 3.5em;
+}
+
+.servicios ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+}
+
+
+
+ul li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2.2em;
+}
+
+.servicios, .secondary2 {
+    margin-top: 2.5em;
+}
+
+
+.servicios1 {
+    gap: 2.2em;
+}
+
+.servicios2 {
+    margin: 0;
+    padding: 0;
+}
+
+/* NOSOTROS */
+
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10em;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.nosotros h2 {
+    color: white;
+}
+
+.nosotros img {
+    height: 35em;
+    object-fit: cover;
+}
+
+.about {
+    padding: 3.5em;
+}
+
+.about .cta {
+    color: white;
+    border-color: white;
+    width: auto;
+    margin-top: 3em;
+    margin-bottom: 4em;
+}
+
+
+/* CONTACTO */
+
+
+.contact {
+    padding: 3.5em;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    gap: .6em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: em;
+}
+
+.details {
+    font-size: 1.6rem;
+}
+
+
+label {
+    font-size: 1.6rem;
+    margin-top: 2.6em;
+}
+
+input {
+    height: 2.5em;
+    font-size: 1.6rem;
+    margin-top: .6em;
+    background: #ECECEC;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    padding-left: .8em;
+}
+
+
+textarea {
+    height: 13em;
+    font-size: 1.6rem;
+    margin-top: .6em;
+    background: #ECECEC;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    padding: 1em;
+    resize: none;
+}
+
+.contactform .primary {
+    width: auto;
+    margin-top: 2.6em;
+}
+
+.contactinfo {
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+}
+
+
+.phone, .mail, .adresss {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .9em;
+}
+
+.adresss {
+    align-items: center;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: var(--primary-color);
+    padding: 3.5em;
+}
+
+.links {
+    color: white;
+}
+
+.menu3, ul li a {
+    color: white;
+    font-size: 1.6rem;
+    text-decoration: none;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    padding: 0;
+}
+
+.menu2 {
+   margin-top: 6.5em;
+}
+
+.menu2, p {
+    font-size: 1.8rem;
+}
+
+.menu3,ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3em;
+    margin-top: 3em;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+}
+
+.socialmedia {
+    margin-top: 6em;
+}
+
+.terminos {
+    margin-top: 9em;
+    color: #CCCCCC;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 800px){
+
+
+
+    /* HERO SECTION */
+
+
+    #topnav {
+        position: fixed;
+        right: -45%;
+        top: 0;
+        width: 45%;
+    }
+
+
+    .hero {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 3.6em;
+        margin-right: 0;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5em;
+    }
+
+
+    .img3 {
+        width: 350px;
+        max-height: 700px;
+        object-fit: cover;
+    }
+
+    .leftcol::before {
+        position: absolute;
+        width: 300px;
+        height: 311px;
+        
+        right: 0;
+        top: 190px;
+        margin-right: 0;
+        padding-right: 0;
+        content: '';
+        z-index: -1;
+        
+        background: #FBF0DB;
+    }
+
+    .rightcol {
+        min-width: 39em;
+        max-width: 53em;
+       
+    }
+
+
+    /* PROPERTIES / CARDS */
+
+    .card3 {
+        display: none;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        max-width: 1400px;
+        margin: auto;
+        
+    }
+
+    #verpropiedades {
+        width: auto;
+        margin-top: 2em;
+        gap: .5em;
+    }
+
+    /* DATOS */
+
+    .wrapper3 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1400px;
+        margin: auto;
+        padding-top: 7em;
+        padding-bottom: 7em;
+        margin-top: 15em;
+
+    }
+
+    /* SERVICIOS */
+
+    .servicios {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        padding: 16em;
+        max-width: 700px
+    }
+
+    .servicios ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+     /* NOSOTROS */
+
+     .nosotros {
+        display: flex;
+        flex-direction: row-reverse;
+        height: 50em;
+        margin-top: 0
+     }
+
+     .nosotros img {
+        height: 100%;
+        width: 50%;
+     }
+
+     .about {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     }
+
+      /* CONTACTO */
+
+      .contact {
+        display: flex;
+        gap: 5em;
+      }
+
+      .contactform {
+        width: 50%;
+      }
+
+      .contactinfo {
+        margin-top: 0;
+      }
+
+
+     /* FOOTER */
+
+     .links {
+        display: flex;
+        gap: 20em;
+     }
+
+     .rightcol {
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+     }
+
+     .menu2 {
+        margin-top: 0;
+     }
+
+     .menu3 {
+        align-items: start;
+    }
+
+
+     .terminos {
+        margin-top: 10em;
+     }
+
+
+    
+}
+
+
+
+
+
+@media screen and (min-width: 1050px) {
+
+    /* Hero Section */
+
+    /*
+
+    .hero {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 30em 20em 20em 0;
+        justify-content: ;
+    }
+
+    */
+
+    #topnav {
+        position: unset;
+        height: auto;
+        font-size: 2.2rem;
+       align-items: center;
+    }
+
+    
+
+    .menu {
+        align-items: center;
+        justify-content: end;
+    }
+
+    .wrapper {
+        align-items: center;
+    }
+
+    #topnav ul li {
+        font-size: 2.2rem;
+       cursor: pointer;
+    }
+
+    #menu .cta-contact {
+        color: #FBF0DB;
+        padding: 12px 24px;
+    }
+
+    #topnav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    #menu li {
+        margin-top: unset;
+        padding: unset;
+    }
+
+    .cta-contact {
+        padding-left: 24px;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: auto;
+        padding: 3.5em;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1400px;
+        justify-self: center;
+        align-self: center;
+    }
+
+    #hero {
+        margin-top: 8em;
+        margin-bottom: 15em;
+    }
+
+    .img1, .img2 {
+        width: auto;
+        height: auto;
+        max-height: 30em;
+    }
+
+    .photos {
+        max-width: 650px;
+        height: 230px;
+        display: grid;
+        margin-top: -8em;
+        gap: .8em;
+        grid-template-columns: repeat(30% 70%);
+        grid-template-rows: repeat(60% 1fr);
+        grid-template-areas: 
+            "img1 img2"
+            "img3 img3";
+    }
+
+    .img1 {
+        grid-area: img1;
+        height: 220px;
+      }
+    
+    .img2 {
+        grid-area: img2;
+        width: 300px;
+        height: 100%;
+      }
+    
+    .img3 {
+        grid-area: img3;
+        width: 100%;
+        height: 200px;
+    }
+
+
+    
+
+    .img3 {
+        max-width: 50em;
+        max-height: 700px;
+        object-fit: cover;
+    }
+
+    .rightcol {
+        width: auto;
+        max-width: 54em;
+    }
+
+    .leftcol {
+        position: relative;
+    }
+
+
+    .leftcol::before {
+        position: absolute;
+        width: 50em;
+        height: 490px;
+        top: -100px;
+        left: 30px;
+        margin-right: 0;
+        content: '';
+        z-index: -1;
+        
+        background: #FBF0DB;
+    }
+
+    /*  .leftcol::before {
+        position: absolute;
+        width: 300px;
+        height: 311px;
+        
+        right: 0;
+        top: 190px;
+        margin-right: 0;
+        padding-right: 0;
+        content: '';
+        z-index: -1;
+         */
+
+    .hide-mobile {
+        display: block;
+    }
+
+
+    h1 {
+        font-size: 4.2rem;
+    }
+
+    h2 {
+        font-size: 4.2rem;
+    }
+
+
+
+
+
+    .card3 {
+        display: block;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+   
+
+    .hide-desktop {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        font-size: 1.8rem;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    
+    header, nav, ul {
+        align-items: center;
+    }
+
+    header, .wrapper {
+        align-items: center;
+    }
+
+    .wrapper {
+        max-width: 1400px;
+        margin: auto;
+        padding-left: 3.5em;
+        padding-right: 3.5em;
+    }
+
+    .cta-contact {
+        border: 2px solid #EFD296;
+        padding: 10px 24px;
+        color: #EFD296;
+    }
+
+    
+
+   /* OFERTAS */
+
+   .ofertas {
+    max-width: 1400px;
+    margin: auto;
+    padding: 3.5em;
+   }
+
+    /* SERVICIOS */
+
+   .servicios {
+    max-width: 800px
+    }
+
+    /* NOSOTROS */
+
+
+    .nosotros {
+        height: 85em;
+        margin-bottom: 7em;
+    }
+
+    .about {
+        padding-right: 20em;
+        padding-left: 3.5em;
+        margin-left: 0;
+        max-width: 1400px;
+        width: 40em;
+    }
+
+    /* CONTACT */
+
+    .contact {
+        max-width: 1400px;
+        margin: auto;
+        gap: 30em;
+    }
+
+    /* FOOTER */
+
+    footer {
+        padding-top: 10em;
+        margin-top: 20em;
+    }
+
+    .links {
+        max-width: 1400px;
+        margin: auto;
+    }
+
+    .terminos {
+        max-width: 1400px;
+        margin: auto;
+        margin-top: 15em;
+    }
+    
+    .leftcol .logo {
+        margin-bottom: 2em;
+    }
+
+
+}
